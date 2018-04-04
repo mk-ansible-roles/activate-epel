@@ -1,6 +1,6 @@
 galaxy_info:
   author: Markus Koch
-  description: Enables EPEL
+  description: Installs EPEL repofile and disables repository
   license: Apache 2.0
   min_ansible_version: 2.2
   platforms:

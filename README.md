@@ -1,7 +1,8 @@
 activate-epel
 =============
 
-This role enables EPEL in EL & CentOS 6 and 7
+This role installs the repofile for EPEL in EL & CentOS 6 and 7, but disables the repo itself
+You can now install packages from EPEL by using `yum install --enablerepo=epel packagename` or the appropriate switch in the ansbile yum module.
 
 Requirements
 ------------
